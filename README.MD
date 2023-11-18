@@ -1,4 +1,4 @@
-# Backend nodejs
+# 1- Backend nodejs
 
 ## Http
 * Client (frontend)
@@ -40,3 +40,30 @@
         * Path
 ## TODO
 * Routing
+
+
+# 2- Suite http server
+
+## Response body
+* JSON (stringify): content type: application/json
+* Promise
+    * image (readFile): content type: image/...
+    * pdf (readFile): content type: application/pdf
+    * then vs async
+    * gestion erreur
+* html: content type: text/html
+
+## Http verb (method)
+* Get, Post, Patch, Put/Delete
+* query parameters
+    * TODO: post form, upload file
+
+## Statut http
+cf   
+[https://developer.mozilla.org/fr/docs/Web/HTTP/Status](https://developer.mozilla.org/fr/docs/Web/HTTP/Status)    
+[https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP](https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP)
+    
+## Gestion erreur
+* Promise
+* Sync
+* Custom error
